@@ -1,0 +1,24 @@
+<style type="text/css">
+	p{
+		color: blue;
+		font-size: 20px;
+			}
+	h1{
+		color: darkblue;
+		font-size: 40px;
+	}
+	mark{
+		color: blue;
+		background-color: grey;
+	}
+	a:link, a:visited {
+  line-height: 200%;
+  text-decoration: none;
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+  display: block;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 1px;		
+</style>
