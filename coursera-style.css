@@ -12,6 +12,9 @@
 		background-color: grey;
 	}
 	.para2 {
+		border: 5px solid yellow;
+		border-style: double;
+		background: black;
 		width: 400px;
 	}
 	.para3 {

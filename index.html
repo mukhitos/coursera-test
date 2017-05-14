@@ -17,8 +17,18 @@
 	font-size: 35px;
 	color: gold;
 	font-style: bold;
-	background-color: black;
     }
+    #box {
+  	background-color: cyan;
+  	padding: 5px 5px 5px 10px;
+  	border: 3px solid Black;
+  	width: 490px;
+  	height: 80px;
+  	overflow: auto;
+  	border-style: dashed;
+  	margin: 10px 0px 10px 10px;
+
+	}
 </style>
 </head>
 <body>
@@ -30,6 +40,11 @@
 <img src="mukhit.jpeg" width="400" height="300" align="center"><hr>
 </p>
 <p><a href="https://www.linkedin.com/in/bolat-ayakoz-b536aa110/" target="_blank">This is Ayakoz LinkedIn Page.</a></p>
+<div id="box">
+  <div id="content">Okay so we'll go ahead and choose the box, that's our box. And we'll take a look as to what's going on. There doesn't seem to be any spacing that's set on the box itself. Well how about the body itself in the body tag? Go and here we go. See we'd realized that the body tag here has a margin all around of eight pixels. Now where is that eight pixel coming from? Or if we take a look here, it's telling you where it's coming from. It's coming from the user agent style. Style sheet. Which means it's the browser itself. It's the default browser styles. So that's actually pretty common that the browsers do stuff like that. And what we're going to do is in order for it not to affect what we're doing we're going to reset it. And it actually resets on the web out there, plenty of resets on the web how to reset default browser setting. So we'll go ahead and do margin 0 and we'll also do padding 0 so we won't be affected by any of that. And when we do that and we save and refresh, you see that now our content is flush with the actual borders of the browser window. Okay, so moving on. So we have our content. And you can see the context is green. Now we're not seeing the background of the box the content is actually sitting in because we would have seen something blue in the background and always see green. And that is because the inner box, the inner content div is covering up the outer one completely because they are the same size. They both try to fill up their parent which is in this case the body tag. Both try to fill it up all the way. And since this one basically sit it on top or inside of this one, it's covering up the blue background. Let's go ahead and set some padding on our box. Let's do padding, and we'll do 10px top. 10px right, 10px bottom, and 10px left.  
+  </div>
+</div>
+
 <p class="style">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat</p>
 </body>
 </html>
